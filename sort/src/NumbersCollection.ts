@@ -3,7 +3,7 @@ import { Sortable } from './Sorter';
 export class NumbersCollection implements Sortable {
   constructor(public data: number[]) {}
 
-  get length() {
+  get length(): number {
     return this.data.length;
   }
 
